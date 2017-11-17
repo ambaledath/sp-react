@@ -1,0 +1,53 @@
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    color: #5a5a5a;
+    font-size: 50px;
+    margin-top: 7rem;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.card > img:hover {
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
+.card-text {
+    font-size: 85%;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+}
