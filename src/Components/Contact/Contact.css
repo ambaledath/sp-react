@@ -1,4 +1,12 @@
+.contact h1{
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
 .contact form{
+    width: 600px;
+    margin: 0 auto 20px;
     padding: 20px 0;
 }
 
