@@ -15,9 +15,9 @@ class Carousel extends Component {
     return (
         <div className="container">
             <Slider {...settings}>
-              <div><img src="https://placeimg.com/800/300/nature" /></div>
-              <div><img src="https://placeimg.com/800/300/people" /></div>
-              <div><img src="https://placeimg.com/800/300/tech" /></div>
+              <div><img src="https://placeimg.com/800/300/nature" alt="" /></div>
+              <div><img src="https://placeimg.com/800/300/people" alt="" /></div>
+              <div><img src="https://placeimg.com/800/300/tech" alt="" /></div>
             </Slider>
         </div>
     );
