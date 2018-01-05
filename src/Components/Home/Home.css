@@ -1,0 +1,25 @@
+@import "~slick-carousel/slick/slick.css";
+
+.slick-slider{
+    margin: 20px 0 30px;
+}
+
+.slick-slide img{
+    width: 100%;
+}
+
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+    width: 80px;
+    background: #fff;
+    border: 0;
+    z-index: 1;
+}
+
+.slick-next{
+    left: auto;
+    right: 0;
+}
