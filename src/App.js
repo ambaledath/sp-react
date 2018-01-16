@@ -3,6 +3,7 @@ import Header from './Components/Partials/Header';
 import Footer from './Components/Partials/Footer';
 
 import Home from './Components/Home/Home';
+import Todo from './Components/Todo/Todo';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 
@@ -14,6 +15,7 @@ class App extends Component {
         <div className="App">
             <Header />
             <Home />
+            <Todo />
             <About />
             <Contact />
             <Footer />
